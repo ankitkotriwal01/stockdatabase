@@ -11,7 +11,8 @@ import streamlit as st
 
 
 # List of 6300 predefined stocks
-stocks = [""]
+stocks = ["GA04.QA","GWCS.QA","VFQS.QA","QOIS.QA","QIIK.QA","QFLS.QA","MRDS.QA","MARK.QA","IQCD.QA","ERES.QA","DOHI.QA","BRES.QA","QGRI.QA","TB33.QA","MERS.QA","QNCD.QA","TB31.QA","DBIS.QA","QGMD.QA","TB37.QA","QATI.QA","AKHI.QA","ABQK.QA","WDAM.QA","QIGD.QA","AHCS.QA","GISS.QA","MCGS.QA","QIMD.QA","TB25.QA","QGTS.QA","DHBK.QA","QISI.QA","QNNS.QA","CBQK.QA","QCFS.QA","IHGS.QA","NLCS.QA","TB28.QA","GA03.QA","ORDS.QA","QEWS.QA","UDCD.QA","QIBK.QA","TB34.QA","SIIS.QA","QNBK.QA","TB36.QA","GA02.QA","MPHC.QA","KCBK.QA","MCCS.QA","GA01.QA","ZHCD.QA","GA13.QA","GA16.QA","GA09.QA","GA05.QA","GA08.QA","GA10.QA","GA12.QA","GA15.QA","GA17.QA","GA18.QA","GA06.QA","GA11.QA","GA19.QA","GA07.QA","GA14.QA","TB49.QA","TB48.QA","TB52.QA","TB45.QA","TB51.QA","TB46.QA","TB40.QA","TB43.QA"]
+
 
 # Function to fetch data for a given stock
 def fetch_stock_data(stock):

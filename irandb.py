@@ -11,7 +11,8 @@ import streamlit as st
 
 
 # List of 6300 predefined stocks
-stocks = [""]
+stocks = ["AIB.IR","DQ5.IR","JEV.IR","IRES.IR","MSTY.IR","SK3.IR","KRZ.IR","FAC.IR","BIR.IR","ORQ.IR","T7O.IR","MLC.IR","APGN.IR","HSW.IR","YZA.IR","AIB1.IR","RY4C.IR","ZAZ.IR","FKV1.IR","DOY.IR","DOP.IR","PPB.IR","DD7E.IR","DD7D.IR","GN1.IR","CRG.IR","CRO.IR","DD8B.IR","DD8A.IR","DLE.IR","DHG.IR","WLG.IR","KJY.IR","DQ7.IR","EG7.IR","EG5A.IR","FQ3.IR","GAME.IR","GCC.IR","HBRN.IR","GL9.IR","OVXA.IR","GYQ.IR","P8ET.IR","IPDC.IR","3MP.IR","KRX.IR","8GW.IR","OIZ.IR","PZQA.IR","IL0A.IR","IJG.IR","IR5B.IR","MIO.IR","TQW.IR"]
+
 
 # Function to fetch data for a given stock
 def fetch_stock_data(stock):

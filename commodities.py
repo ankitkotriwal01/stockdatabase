@@ -90,7 +90,7 @@ def fetch_stock_data(stock):
 
 # Main function to run the Streamlit app
 def main():
-    st.title("")
+    st.title("Commodities")
 
     # Placeholder to show data
     placeholder = st.empty()

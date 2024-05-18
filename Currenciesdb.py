@@ -71,7 +71,7 @@ def format_percentage(value):
 
 # Main function to run the Streamlit app
 def main():
-    st.title("Currencies Dashboard")
+    st.title("Currencies Database")
 
     # Sidebar for selecting stocks
     all_stocks_option = st.sidebar.checkbox("Select All Currencies")

@@ -150,10 +150,10 @@ def format_percentage(value):
 
 # Main function to run the Streamlit app
 def main():
-    st.title("stock Data Dashboard")
+    st.title("Mutual fund Data Dashboard")
 
     # Sidebar for selecting stocks
-    all_stocks_option = st.sidebar.checkbox("Select All stocks")
+    all_stocks_option = st.sidebar.checkbox("Select All Mutual funds")
     if all_stocks_option:
         selected_stocks = stocks
     else:
